@@ -1,6 +1,7 @@
 import mongoose, { Schema } from "mongoose";
 
 export interface Irouter {
+  _id:Schema.Types.ObjectId
   lineNumber: string;
   name: string;
   statiobs: [string];

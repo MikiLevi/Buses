@@ -2,7 +2,7 @@ import mongoose, { Date, Document, Schema } from "mongoose";
 
 // הממשק מגדיר את המבנה של המשתמש
 export interface IUser extends Document {
-  _id: 
+  _id:Schema.Types.ObjectId
   name: string;
   email: string;
   password: string;

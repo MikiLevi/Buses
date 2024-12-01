@@ -3,6 +3,7 @@ import { IUser } from "./users";
 import { Irouter } from "./routers";
 
 export interface IBuses {
+  _id:Schema.Types.ObjectId
   licensePlate: string;
   modelBus: string;
   capacity: number;
